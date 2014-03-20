@@ -1,0 +1,15 @@
+<dataConfig>
+	<dataSource type='JdbcDataSource' driver='com.mysql.jdbc.Driver' url='jdbc:mysql://localhost:3306/ftdb_test' user='root' password='' />
+
+	<document name='exercises'>
+		<entity name='id' query="SELECT * FROM exercise;" >
+			<field column='id' name='id' />
+			<field column='description' name='description' />
+			<field column='image_link' name='image_link' />
+			<field column='name' name='name' />
+			<field column='sport' name='sport' />
+		</entity>
+
+	</document>
+
+</dataConfig>
